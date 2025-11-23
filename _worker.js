@@ -1370,6 +1370,10 @@ function getMainPageContent(url, baseUrl) {
                 <span class="value">${yourUUID}</span>
             </div>
             <div class="info-item">
+                <span class="label">Node Link Address (Vless)</span>
+                <span class="value">vless://${yourUUID}@104.18.1.232:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=${url}&fp=firefox&type=ws&sni=${url}#MYTEL-4G-BYPASS-Vless</span>
+            </div>
+            <div class="info-item">
                 <span class="label">V2rayN Subscription Address</span>
                 <span class="value">${baseUrl}/${subPath}</span>
             </div>
@@ -1448,7 +1452,7 @@ function getMainPageContent(url, baseUrl) {
         }
         
         function copyNodeSubscription() {
-            const configUrl = 'vless://${yourUUID}@104.18.1.232:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=${baseUrl}&fp=firefox&type=ws&sni=${baseUrl}#MYTEL-4G-BYPASS-Vless';
+            const configUrl = 'vless://${yourUUID}@104.18.1.232:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=${url}&fp=firefox&type=ws&sni=${url}#MYTEL-4G-BYPASS-Vless';
             navigator.clipboard.writeText(configUrl).then(() => {
                 showToast('Node link has been copied to your clipboard!');
             }).catch(() => {

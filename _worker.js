@@ -11,9 +11,9 @@
 import { connect } from 'cloudflare:sockets';
 
 let subPath = 'link';     // The node subscription path will use the UUID as the subscription path if not modified.
-// let password = '123456';  // Homepage password; it is recommended to change or add a PASSWORD environment variable
+let password = '123456';  // Homepage password; it is recommended to change or add a PASSWORD environment variable
 let proxyIP = '210.61.97.241:81';  // proxyIP
-// let yourUUID = '5dc15e15-f285-4a9d-959b-0e4fbdd77b63'; // UUID, it is recommended to modify or add environment variables
+let yourUUID = '593a2e86-17f1-4b36-9a44-6c24d26bc195'; // UUID, it is recommended to modify or add environment variables
 let disabletro = false;  // Does this disable Trojan? Setting it to true disables Trojan, while setting it to false enables it
 
 // CDN 

@@ -1,11 +1,7 @@
 // Related environment variables (all optional)
-
 // SUB_PATH | subpath Subscription path
-
 // PROXYIP | proxyip Proxy IP
-
 // UUID | uuid UUID
-
 // DISABLE_TROJAN | Whether to disable Trojan. Setting it to true disables Trojan, setting it to false enables it. It is enabled by default
 
 import { connect } from 'cloudflare:sockets';

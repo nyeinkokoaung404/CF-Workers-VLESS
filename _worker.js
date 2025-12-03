@@ -1,3 +1,4 @@
+// 4 0 4 \ 2.0 /🇲🇲\
 // Related environment variables (all optional)
 // SUB_PATH | subpath Subscription path
 // PROXYIP | proxyip Proxy IP

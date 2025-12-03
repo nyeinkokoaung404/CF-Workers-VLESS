@@ -15,7 +15,7 @@ let disabletro = false;  // Does this disable Trojan? Setting it to true disable
 
 // CDN 
 let cfip = [ // Format: Preferred Domain: Port # Remark Name, Preferred IP: Port # Remark Name, [IPv6 Preferred]: Port # Remark Name, Preferred Domain # Remark
-    '104.18.1.232#MYTEL-4G-BYPASS', '104.16.156.36#MPT-GAME-PLAN'
+    '104.18.1.232#MYTEL-4G-BYPASS', 'api.wavemoney.io#MYTEL-4G-BYPASS', '104.16.156.36#MPT-GAME-PLAN'
 ];  // Many thanks to the experts who maintained the preferred domain name
 
 function closeSocketQuietly(socket) { 
